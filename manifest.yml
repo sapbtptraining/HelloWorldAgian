@@ -1,0 +1,7 @@
+---
+applications:
+- name: HelloWorldAGAIN
+  host: HelloWorldAGAIN
+  buildpack: nodejs_buildpack
+  memory: 128M
+  command: node server
